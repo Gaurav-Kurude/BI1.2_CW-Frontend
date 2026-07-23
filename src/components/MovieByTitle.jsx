@@ -3,7 +3,7 @@ import useFetch from "../hooks/useFetch";
 const MovieByTitle = ({title}) =>{
    
     const {data, loading, error} = useFetch(`https://bi-1-1-cw-backend-reqo.vercel.app/movies/${title}`);
-    console.log(data);
+    // console.log(data);
 
     if (loading) {
       return <p>Loading movie details...</p>;
