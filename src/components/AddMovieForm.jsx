@@ -4,9 +4,9 @@ const AddMovieForm = () => {
   const [formData, setFormData] = useState({
     title: "",
     releaseYear: "",
-    genre: "",
+    genre: [],
     director: "",
-    actors: "",
+    actors: [],
     language: "",
     country: "",
     rating: "",

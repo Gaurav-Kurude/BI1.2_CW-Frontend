@@ -24,7 +24,7 @@ const MovieByTitle = ({title}) =>{
             <p>Country: {data.country}</p>
             <p>Release Year: {data.releaseYear}</p>
             <p>Rating: {data.rating}</p>
-            <p>Actors: {data.actors.join(", ")}</p>
+            <p>Actors: {data.actors?.join(", ")}</p>
             <p>Awards: {data.awards}</p>
             <p>Plot: {data.plot}</p>
             <img src={data.posterUrl} alt="Poster Image" />
