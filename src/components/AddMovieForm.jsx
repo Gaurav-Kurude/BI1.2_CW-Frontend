@@ -29,7 +29,7 @@ const AddMovieForm = () =>{
   event.preventDefault();
 
   try {
-    const response = await fetch("http://localhost:3000/movies", {
+    const response = await fetch("http://localhost:5000/movies", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
