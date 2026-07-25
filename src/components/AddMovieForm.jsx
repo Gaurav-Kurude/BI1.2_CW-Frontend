@@ -30,7 +30,7 @@ const AddMovieForm = () => {
 
     try {
       const response = await fetch(
-        "https://bi-1-1-cw-backend-reqo.vercel.app/movies",
+        "https://bi-1-2-cw-backend-nu.vercel.app/movies",
         {
           method: "POST",
           headers: {

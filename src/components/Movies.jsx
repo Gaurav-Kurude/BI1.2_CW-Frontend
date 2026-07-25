@@ -1,7 +1,7 @@
 import useFetch from "../hooks/useFetch";
 
 const Movies = () =>{
-   const { data, loading , error } = useFetch("https://bi-1-1-cw-backend-reqo.vercel.app/movies");
+   const { data, loading , error } = useFetch("https://bi-1-2-cw-backend-nu.vercel.app/movies");
     // console.log(data)
 
     if (loading) {
